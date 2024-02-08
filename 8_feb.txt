@@ -1,0 +1,94 @@
+
+#include<stdio.h>
+int main(){
+    printf("hello world ");
+    return 0;
+}
+
+#include<stdio.h>
+int main(){
+    printf("welcome to india ");
+    return 0;
+}
+
+
+.1 : Five Animals Name =>
+#include<stdio.h>
+int main(){
+    printf("dog\n");
+    printf("cat\n");
+    printf("cow\n");
+    printf("goat\n");
+    printf("elephant");
+    return 0;
+}
+
+.2 : Five Humans Name =>
+#include<stdio.h>
+int main(){
+    printf("yogesh\n");
+    printf("Deepak\n");
+    printf("Amit\n");
+    printf("Sanjay\n");
+    printf("Vikas");
+    return 0;
+}
+
+
+.3 : Five City Name =>
+#include<stdio.h>
+int main(){
+    printf("jaipur\n");
+    printf("Ajmer\n");
+    printf("Alwar\n");
+    printf("Kota\n");
+    printf("Dehli");
+    return 0;
+}
+
+.4 : Five Country Name =>
+#include<stdio.h>
+int main(){
+    printf("India\n");
+    printf("Japan\n");
+    printf("London\n");
+    printf("France\n");
+    printf("China");
+    return 0;
+}
+
+.5 : Five Food Name =>
+#include<stdio.h>
+int main(){
+    printf("Dal Bhati\n");
+    printf("kachori\n");
+    printf("Samosa\n");
+    printf("Momos\n");
+    printf("Burger");
+    return 0;
+}
+
+
+.6 : Five Colors Name =>
+#include<stdio.h>
+int main(){
+    printf("Red\n");
+    printf("Yellow\n");
+    printf("Neavy Blue\n");
+    printf("Cream\n");
+    printf("White");
+    return 0;
+}
+
+
+.7 : Five Programing Languages
+#include<stdio.h>
+int main(){
+    printf("HTML\n");
+    printf("C\n");
+    printf("python\n");
+    printf("java\n");
+    printf("C++");
+    return 0;
+}
+
