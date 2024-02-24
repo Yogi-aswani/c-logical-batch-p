@@ -1,0 +1,194 @@
+
+#include <stdio.h>
+
+int main()
+{
+   int num;
+   printf("enter any number");
+   scanf("%d",&num);
+   if(num>34 && num<67){
+       printf("this is a greaterthan 34 and lessthan 67");
+   }
+   else{
+       printf("This is a wrong number");
+   }
+    return 0;
+}
+--------------------------------------------------------------
+
+q10
+#include <stdio.h>
+
+int main()
+{
+   int num;
+   printf("enter any number");
+   scanf("%d",&num);
+   if(num>34 && num<67){
+       if(num%2==0){
+           printf("this is a even number %d",num);
+       }
+   }
+   else{
+       printf("Please choose a number between 34 to 67");
+   }
+    return 0;
+}
+----------------------------------------------------------------
+q11
+#include <stdio.h>
+
+int main()
+{
+   int num;
+   printf("enter any number");
+   scanf("%d",&num);
+   if(num>34 && num<67){
+       if(num%2!=0){
+           printf("this is a odd number %d",num);
+       }
+       else{
+          printf("wrong number");
+       }
+   }
+   else{
+       printf("Please choose a number between 34 to 67");
+   }
+    return 0;
+}
+----------------------------------------------------------------
+Q.12 
+#include <stdio.h>
+int main()
+{
+    int num = 1;
+    int sum;
+    while(num<=10){
+        sum = sum+num;
+        num++;
+    }
+     printf("this is  sum of 1 to 10 %d",sum);
+
+    return 0;
+}
+----------------------------------------------------------------
+Q.13
+
+
+#include <stdio.h>
+
+int main()
+{
+    int num = 1;
+    int table;
+    while(num<=10){
+        table = 2*num;
+        printf("\n2 Table %d",table);
+        num++;
+    }
+     
+
+    return 0;
+}
+----------------------------------------------------------------
+Q.14
+#include <stdio.h>
+
+int main()
+{
+    int num = 1;
+    int input;
+    printf("enter any number");
+    scanf("%d",&input);
+    int table ;
+    while(num<=10)
+    {
+        table = input*num;
+         printf("Table Of %d\n",table);
+        num++;
+    }
+   
+    return 0;
+}
+--------------------------------------------------------
+Q.16
+
+
+#include <stdio.h>
+
+int main()
+{
+    int num = 1;
+   
+    while(num<=100){
+        if(num%3==0 && num%7==0){
+            printf("\nThis number is multiple by 3 and 7 %d",num);
+        }
+        num++;
+    }
+     
+
+    return 0;
+}
+----------------------------------------------------------------------------
+Q.17 
+
+
+#include <stdio.h>
+
+int main()
+{
+    int num = 1;
+   
+    while(num<=100){
+        if(num%5==0 || num%11==0){
+            printf("\nThis number is Devide by 5 and 11 %d",num);
+        }
+        num++;
+    }
+     
+
+    return 0;
+}
+-------------------------------------------------------------------------
+Q.18
+
+
+#include <stdio.h>
+
+int main()
+{
+    int num = 100;
+   
+    while(num>=1){
+        if(num%5==0 || num%11==0){
+            printf("\nThis number is Devide by 5 and 11 %d",num);
+        }
+        num--;
+    }
+     
+
+    return 0;
+}
+------------------------------------------------------------------------
+Q.19
+#include <stdio.h>
+
+int main()
+{
+    int num = 10;
+    int table;
+    while(num>=1){
+        table = 2*num;
+        printf("\n2 Table %d",table);
+        num--;
+    }
+     
+
+    return 0;
+}
+-------------------------------------------------------
+
+
+
+
