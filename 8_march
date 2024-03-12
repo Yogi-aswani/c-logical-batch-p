@@ -1,0 +1,275 @@
+Q1 : 1---->10 even number print 
+#include <stdio.h>
+
+int main()
+{   int num = 1;
+    while(num<=10){
+        if(num%2==0){
+            printf("%d ",num);
+           
+        }
+         num++;
+    }
+
+    return 0;
+}
+-----------------------------------------------------
+Q2 : 1---->100 even number print
+#include <stdio.h>
+
+int main()
+{   int num = 1;
+    while(num<=100){
+        if(num%2==0){
+            printf("%d ",num);
+           
+        }
+         num++;
+    }
+
+    return 0;
+}
+------------------------------------------------------
+Q.3 : 50---->100 even number print 
+#include <stdio.h>
+
+int main()
+{   int num = 50;
+    while(num<=100){
+        if(num%2==0){
+            printf("%d ",num);
+           
+        }
+         num++;
+    }
+
+    return 0;
+}
+---------------------------------------------------------------
+Q4 :10---->1 even number print
+#include <stdio.h>
+
+int main()
+{   int num = 10;
+    while(num>=1){
+        if(num%2==0){
+            printf("%d ",num);
+           
+        }
+         num--;
+    }
+
+    return 0;
+}
+-------------------------------------------------------------
+Q.5 : 100---->1 even number print
+#include <stdio.h>
+
+int main()
+{   int num = 100;
+    while(num>=1){
+        if(num%2==0){
+            printf("%d ",num);
+           
+        }
+         num--;
+    }
+
+    return 0;
+}
+-----------------------------------------------------------------
+Q.6 : 53---89 even number print
+#include <stdio.h>
+
+int main()
+{   int num = 53;
+    while(num<=89){
+        if(num%2==0){
+            printf("%d ",num);
+           
+        }
+         num++;
+    }
+
+    return 0;
+}
+----------------------------------------------------------------
+Q.7 : 78---65 even number print 
+#include <stdio.h>
+
+int main()
+{   int num = 75;
+    while(num>=65){
+        if(num%2==0){
+            printf("%d ",num);
+           
+        }
+         num--;
+    }
+
+    return 0;
+}
+---------------------------------------------------------
+Q.8 : User Input start to end value
+#include <stdio.h>
+
+int main()
+{   int a;
+    int b; 
+    printf("Emter The Start Value");
+    scanf("%d",&a);
+     printf("Emter The End Value");
+    scanf("%d",&b);
+    if(a<b){
+        while(a<=b){
+            if(a%2==0){
+                printf("%d ",a);
+            }
+            a++;
+        }
+    }
+    else{
+         while(a>=b){
+            if(a%2==0){
+                printf("%d ",a);
+            }
+            a--;
+        }
+    }
+    return 0;
+}
+--------------------------------------------------------------
+Q.9 : 1---->100 odd number print
+#include <stdio.h>
+
+int main()
+{   int num = 1;
+    while(num<=100){
+        if(num%2!=0){
+            printf("%d ",num);
+           
+        }
+         num++;
+    }
+
+    return 0;
+}
+---------------------------------------------------------
+Q.10 67---->89 odd number print
+#include <stdio.h>
+
+int main()
+{   int num = 67;
+    while(num<=89){
+        if(num%2!=0){
+            printf("%d ",num);
+           
+        }
+         num++;
+    }
+
+    return 0;
+}
+-----------------------------------------------------------
+Q.11 : count digit :
+34534645 :dry run +laptop (cw)
+
+#include <stdio.h>
+int main()
+{
+   int num=34534645;
+   int count=0;
+   while(num>0){
+       count++;
+       num=num/10;
+   }
+   printf("%d",count);
+    return 0;
+}
+----------------------------------------------------
+Q.12 : reverse of number :56234->43265
+
+#include <stdio.h>
+int main()
+{
+   int num=56234 ;
+   int rem,sum=0;
+   while(num>0){
+       rem=num%10;
+       sum=sum*10+rem;
+       num=num/10;
+   }
+   printf("%d",sum);
+    return 0;
+}
+-------------------------------------------------
+Q.13 :c program to check a number is pallindrome :12321 
+
+#include <stdio.h>
+int main()
+{
+   int num=12321;
+   int rem,sum=0;
+   int temp=num;
+   while(num>0){
+       rem=num%10;
+       sum=sum*10+rem;
+       num=num/10;
+   }
+   printf("%d",sum);
+   if(temp==sum){
+       printf("this number is pallindrome");
+   }
+   else {
+       printf("this number is not pallindrome");
+   }
+    return 0;
+}
+----------------------------------------------------------- 
+Q.14 : armstrong :153
+#include <stdio.h>
+int main()
+{
+   int num=153;
+   int rem,sum=0;
+   int temp=num;
+   while(num>0){
+       rem=num%10;
+       sum=sum+rem*rem*rem;
+       num=num/10;
+   }
+   printf("%d",sum);
+   if(temp==sum){
+       printf("this number is armstrong number");
+   }
+   else {
+       printf("this number is not armstrong number");
+   }
+    return 0;
+}
+------------------------------------------------
+Q.15 : user input :
+
+e : 23---89 even number
+
+o :67---->23 odd number 
+
+r :reverse number print 
+
+p :pallindrome 
+
+a :armstrong 
+
+s :swap 
+	w :with 
+	o:without 
+
+g :for gender 
+	m :male 
+	f :female 
+	o :others 
+
+m :month check 
+
+c :count of digit 
+---------------------------------------------------
