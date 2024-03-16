@@ -1,0 +1,195 @@
+--------------------------------
+// fibbonacci
+Q.2
+#include <stdio.h>
+int main()
+{
+    int num;
+    printf("Enter Any Number");
+    scanf("%d",&num);
+    int n1=0,n2=1,n3;
+    for(int i=1;i<=num;i++){
+        n3 = n1+n2;
+        printf("%d ",n3);
+        n1=n2;
+        n2=n3;
+    }
+
+    return 0;
+}
+-------------------------
+//pallindrome
+Q.3
+#include <stdio.h>
+int main()
+{
+   int num;
+   printf("Enter Any Number");
+   scanf("%d",&num);
+   int rem,sum=0;
+   int temp=num;
+   while(num>0){
+       rem=num%10;
+       sum=sum*10+rem;
+       num=num/10;
+   }
+   if(temp==sum){
+       printf("this number is pallindrome");
+   }
+   else {
+       printf("this number is not pallindrome");
+   }
+
+    return 0;
+}
+
+------------------------------------
+//count on digits
+Q.4
+#include <stdio.h>
+int main()
+{
+    int num;
+    printf("Enter Any Number");
+    scanf("%d",&num);
+    int count = 0;
+    while(num>0){
+        count++;
+        num = num/10;
+    }
+    printf("%d\n",count);
+   
+
+    return 0;
+}
+------------------------------------------------------------------------------------------
+Q.5
+//sum of natural numbers
+#include <stdio.h>
+int main()
+{
+  int sum;
+    for(int i=0; i<=9; i++){
+        sum=sum+i;
+    }
+    printf("%d",sum);
+
+
+    return 0;
+}
+---------------------------------------------------------------
+Q.6
+//revrse number
+#include <stdio.h>
+void reverse();
+int main(){
+   reverse();
+    
+    return 0;
+}
+void reverse(){
+    int num;
+    printf("Enter the Number");
+    scanf("%d",&num);
+    int rem,sum=0;
+    while(num>0){
+        rem = num%10;
+        sum = sum*10+rem;
+        num = num/10;
+    }
+    printf("%d",sum);
+}
+---------------------------------------------
+Q.7
+//factorial
+#include <stdio.h>
+int main()
+{
+   int num;
+   printf("Enter Any Number");
+   scanf("%d",&num);
+    int fact = 1;
+    for(int i=1; i<=num; i++){
+        fact = fact*i;
+    }
+    printf("%d",fact);
+    return 0;
+}
+------------------------------------------
+Q.8
+//armstrong
+#include <stdio.h>
+int main()
+{
+  int num;
+   printf("Enter Any Number");
+   scanf("%d",&num);
+   int rem,sum=0;
+   int temp=num;
+   while(num>0){
+       rem=num%10;
+       sum=sum+rem*rem*rem;
+       num=num/10;
+   }
+   printf("%d ",sum);
+   if(temp==sum){
+       printf("this number is armstrong number \n");
+   }
+   else {
+       printf("this number is not armstrong number \n");
+   }
+    return 0;
+}
+---------------------------------------------------------------
+Q.9
+// pallindrome
+#include <stdio.h>
+int main()
+{
+   int num;
+   printf("Enter Any Number");
+   scanf("%d",&num);
+   int rem,sum=0;
+   int temp=num;
+   while(num>0){
+       rem=num%10;
+       sum=sum*10+rem;
+       num=num/10;
+   }
+   printf("%d",sum);
+    return 0;
+}
+-----------------------------------
+Q.10
+#include <stdio.h>
+int main()
+{
+   for(int i=1; i<=5; i++){
+       for(int j=1; j<=5; j++){
+           if(i==1 || j==1 || i==5){
+               printf("*");
+           }
+           
+       }
+       printf("\n");
+   }
+    return 0;
+}
+----------------------------------------------
+Q.11
+#include <stdio.h>
+
+int main()
+{
+   for(int i=1;i<=4;i++){
+      for(int s=3;s>=i;s--){
+          printf(" ");
+      }
+      for(int j=1;j<=i;j++){
+          printf(" *");
+      }
+       printf("\n");
+   }
+    return 0;
+}
+-----------------------------------------
